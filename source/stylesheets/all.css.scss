@@ -1,0 +1,38 @@
+@import "normalize";
+@import "whitespace";
+
+
+.wrapper {
+  padding-left: 400px;
+}
+.sidebar-wrapper {
+  position: fixed; 
+  left: 0;
+  width: 100%;
+  max-width: 400px;
+  z-index: 2;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.page-content-wrapper {
+  width: 100%;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  list-style: none;
+  margin-top: 63px;
+}
+
+.sidebar-header {
+  position: fixed;
+  width: 400px;
+  z-index: 4;
+}
+
+.card-link {
+  color: initial;
+}
