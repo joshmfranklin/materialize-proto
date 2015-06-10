@@ -1,5 +1,19 @@
+#modal1.modal
+  .modal-content
+    .row
+      .col.m12
+        h5.mbl Add Image
+      .input-field.col.s12
+        input#first_name.validate type="text"
+        label for="first_name"  Image title
+      .input-field.col.s12
+        textarea#textarea1.materialize-textarea
+        label for="textarea1"  Image description
+  .modal-footer
+    a.modal-action.modal-close.waves-effect.waves-green.btn-flat href="#!"  Add
+
 .navbar-fixed
-  nav.blue-grey.lighten-5
+  nav.white
     .nav-wrapper
       .row
         .col.m12
@@ -12,46 +26,55 @@
             li
               a.blue-grey-text href="javascript.html"  JavaScript
 .wrapper
-  .sidebar-wrapper.white
-    .sidebar-header.white.pal 
-      .sidebar-title.blue-grey.lighten-5.pam Something
+  .sidebar-wrapper.blue-grey.lighten-5
+    .sidebar-header.blue-grey.lighten-5.pal 
+      .sidebar-title.pam.white
+        strong Active users
     .sidebar-nav.pal
-      ul.sidebar-links.mtn
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Home
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Another link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Next link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
-          li.sidebar-link.blue-grey.lighten-5.mbm.pam
-            a href="#"  Last link
+      ul.collection
+        li.collection-item.avatar
+          img.circle alt="" src="images/16.jpg"
+          strong.title Title
+          p First Line
+        li.collection-item.avatar
+          img.circle alt="" src="images/27.jpg"
+          strong.title Title
+          p First Line
+        li.collection-item.avatar
+          img.circle alt="" src="images/69.jpg"
+          strong.title Title
+          p First Line
+        li.collection-item.avatar
+          img.circle alt="" src="images/75.jpg"
+          strong.title Title
+          p First Line
+        li.collection-item.avatar
+          img.circle alt="" src="images/55.jpg"
+          strong.title Title
+          p First Line
+        li.collection-item.avatar
+          img.circle alt="" src="images/31.jpg"
+          strong.title Title
+          p First Line
+        li.collection-item.avatar
+          img.circle alt="" src="images/27.jpg"
+          strong.title Title
+          p First Line
+        li.collection-item.avatar
+          img.circle alt="" src="images/38.jpg"
+          strong.title Title
+          p First Line
+        li.collection-item.avatar
+          img.circle alt="" src="images/49.jpg"
+          strong.title Title
+          p First Line
+        li.collection-item.avatar
+          img.circle alt="" src="images/42.jpg"
+          strong.title Title
+          p First Line
   .page-content-wrapper
     .fixed-action-btn style=("bottom: 45px; right: 30px;") 
-      a.btn-floating.btn-large.red
+      a.btn-floating.btn-large.red.waves-effect.waves-circle.waves-light.modal-trigger href="#modal1"
         i.large.mdi-content-add
     .page-content.pal
       .row

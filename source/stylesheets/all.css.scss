@@ -1,7 +1,6 @@
 @import "normalize";
 @import "whitespace";
 
-
 .wrapper {
   padding-left: 400px;
 }
@@ -31,6 +30,19 @@
   position: fixed;
   width: 400px;
   z-index: 4;
+  text-transform: uppercase;
+}
+
+.sidebar-link, .sidebar-title {
+  border-radius: 2px;
+}
+
+.collection .collection-item.avatar {
+  height: auto;
+}
+
+.collection {
+  margin-bottom: 60px;
 }
 
 .card-link {
