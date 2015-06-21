@@ -87,3 +87,41 @@ nav .brand-logo {
 .card {
   overflow: visible;
 }
+
+// BLOG
+
+.hero-img-container {
+  position: absolute;
+  height: 400px; 
+  width: 100%;
+  z-index: -1;
+}
+
+.hero-img {
+   background: url(../images/7.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.blog-title {
+  z-index: 1;
+
+  h1 {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    margin-top: 150px;
+    line-height: 1.5em;
+  }
+}
+
+.content-wrapper {
+  margin-top: 150px;
+}
+
+blockquote {
+  font-size: 1.5em;
+}
