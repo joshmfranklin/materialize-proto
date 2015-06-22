@@ -90,11 +90,20 @@ nav .brand-logo {
 
 // BLOG
 
-.hero-img-container {
-  position: absolute;
+.hero-container {
+  position: relative;
   height: 400px; 
   width: 100%;
   z-index: -1;
+}
+
+.overlay {
+  background-color: black;
+  position: absolute;
+  top: 65px;
+  width: 100%;
+  height: 400px;
+  opacity: 0.25;
 }
 
 .hero-img {
@@ -106,9 +115,14 @@ nav .brand-logo {
   height: 100%;
 }
 
-.blog-title {
-  z-index: 1;
+.blog-title-container {
+  position: absolute;
+  top: 65px;
+  z-index: 2;
 
+}
+
+.blog-title {
   h1 {
     text-align: center;
     color: white;
@@ -119,9 +133,17 @@ nav .brand-logo {
 }
 
 .content-wrapper {
-  margin-top: 150px;
+  margin-top: 1rem;
 }
 
 blockquote {
   font-size: 1.5em;
+}
+
+#nav-hidden {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 4;
+  display: none;
 }
