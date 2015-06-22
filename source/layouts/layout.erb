@@ -34,5 +34,12 @@
                 $('#nav-hidden').slideUp("fast");
             }
         });
+      $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 75) {
+                $('.blog-title-container').fadeOut("slow");
+            } else {
+                $('.blog-title-container').fadeIn();
+            }
+        });
     });
 </script>

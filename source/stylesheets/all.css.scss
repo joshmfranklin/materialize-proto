@@ -133,7 +133,14 @@ nav .brand-logo {
 }
 
 .content-wrapper {
-  margin-top: 1rem;
+  width: 80%;
+  margin: 1rem auto 0px auto;
+  font-size: 18px;
+  line-height: 2rem;
+
+  @media screen and (max-width: 750px) {
+    width: 100%;
+  }
 }
 
 blockquote {
