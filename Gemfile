@@ -20,7 +20,3 @@ gem 'slim'
 gem 'rack-contrib'
 
 gem "puma"
- 
-group :development do
-  gem 'unicorn'
-end
