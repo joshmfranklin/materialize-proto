@@ -20,3 +20,5 @@ gem 'slim'
 gem 'rack-contrib'
 
 gem "puma"
+
+gem 'rack-cache'
